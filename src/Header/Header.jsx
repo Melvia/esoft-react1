@@ -1,6 +1,7 @@
+import './Header.css';
 
 const Header = () => {
-    return (<div> Это мой первый React. проект! </div>);
+    return (<h2><span>Это мой </span> <span>первый React. проект!</span></h2>);
 }
 
 export default Header;
